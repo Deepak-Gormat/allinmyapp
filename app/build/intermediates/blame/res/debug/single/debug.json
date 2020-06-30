@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_aishwarya_rai.jpg.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable\\aishwarya_rai.jpg"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_netflix.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable\\netflix.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rashmika.jpg.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable\\rashmika.jpg"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_image.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable\\profile_image.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_netflix.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable-v24\\netflix.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_netflixlogo.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable-v24\\netflixlogo.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_list.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\layout\\activity_user_list.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_background.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable\\btn_background.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_aliabhatt.jpg.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable\\aliabhatt.jpg"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_background.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable\\login_background.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash__screen.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\layout\\activity_splash__screen.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_info.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\layout\\activity_user_info.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_netflixlogo.png.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable\\netflixlogo.png"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_another_back.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable\\login_another_back.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_page_background.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\drawable\\page_background.xml"
+    },
+    {
+        "merged": "F:\\Android Project\\MyApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "F:\\Android Project\\MyApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]
