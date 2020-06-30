@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_background"
+    tools:context=".userEntery.UserInfoActivity">
+
+    <TextView
+        android:id="@+id/userDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:gravity="center"
+        android:text="User Details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_below="@id/userDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+      <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/uNameM"
+            android:layout_width="match_parent"
+            app:hintTextColor="@android:color/white"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"  >
+
+            <EditText
+                android:id="@+id/uNameT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Name"
+                android:textStyle="bold"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/uEmailM"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            app:hintTextColor="@android:color/white"
+            android:layout_height="wrap_content"  >
+
+            <EditText
+                android:id="@+id/uEmailT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Email"
+                android:textStyle="bold"
+                android:inputType="textEmailAddress"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/uPhoneNoM"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            app:hintTextColor="@android:color/white"
+            android:layout_height="wrap_content"  >
+
+            <EditText
+                android:id="@+id/uPhoneNoT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Phone Number"
+                android:textStyle="bold"
+                android:inputType="phone"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/error_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Error Show"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:paddingTop="5dp"/>
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:background="@drawable/btn_background"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

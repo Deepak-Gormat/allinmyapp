@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userEntery.SignIn">
+
+    <LinearLayout
+        android:id="@+id/loginFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/login_background"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginStart="290dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/loginFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/userPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/phone_number"
+                android:inputType="phone" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+
+                android:id="@+id/verifyCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/_6_digit_otp"
+                android:inputType="phone"
+                android:visibility="gone"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <Button
+                android:id="@+id/sendVerifyCodeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_another_back"
+                android:text="Send Verification Code" />
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/VerifyCodeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_another_back"
+                android:text="Send Verify Code" />
+    </LinearLayout>
+
+
+</RelativeLayout>

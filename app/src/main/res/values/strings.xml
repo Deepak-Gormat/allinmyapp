@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="_6_digit_otp">6 Digit OTP</string>
+    <string name="phone_number">Phone Number</string>
+</resources>

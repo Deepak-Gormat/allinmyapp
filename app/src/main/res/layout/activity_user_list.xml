@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserListActivity">
+
+    <LinearLayout
+        android:id="@+id/userSimpleList"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/aishwarya_rai"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/userLname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aishwarya Rai"
+                android:textStyle="bold"
+                android:layout_marginStart="12dp"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/userLstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Offline"
+                android:textSize="16sp"
+                android:layout_marginStart="12dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/useImagecardView"
+        android:layout_below="@+id/userSimpleList"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="8dp"
+            app:cardElevation="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/aliabhatt"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/userLCname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alia Bhatt"
+                android:textStyle="bold"
+                android:layout_marginStart="12dp"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/userLCstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Online"
+                android:textSize="16sp"
+                android:layout_marginStart="12dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cardViewList"
+        android:layout_below="@+id/useImagecardView"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="50dp"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="8dp"
+            app:cardElevation="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rashmika"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/userLCAname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rashmika Mandanna "
+                android:textStyle="bold"
+                android:layout_marginStart="12dp"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/userLCAstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Online"
+                android:textSize="16sp"
+                android:layout_marginStart="12dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
